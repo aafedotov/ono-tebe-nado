@@ -59,3 +59,43 @@
     width: 100%;
     height: 100%;
 }
+
+.cover-title {
+    color: #FFF;
+    font-size: 100px;
+    letter-spacing: 30px;
+    font-weight: bold;
+    line-height: 100%;
+    text-transform: uppercase;
+    display: block;
+    height: 100%;
+    box-sizing: content-box;
+}
+
+.aligned-text {
+    height: 115px;
+    padding-top: 165px;
+    padding-left: 50px;
+}
+
+.aligned-text-center {
+    text-align: center;
+    height: 100px;
+    padding-top: 20px;
+
+}
+
+.aligned-text-right {
+    text-align: right;
+    height: 100px;
+    padding-top: 20px;
+    padding-right: 50px;
+}
+
+.letter-spacing-extended {
+    letter-spacing: 60px;
+}
+
+.no-letter-spacing {
+    letter-spacing: 0;
+}
