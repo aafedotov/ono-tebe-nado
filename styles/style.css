@@ -1,1 +1,47 @@
-/* место для вашего кода */
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 92px 50px;
+    place-items: center;
+    font-size: 18px;
+}
+
+.header-menu {
+    place-self: start;
+    align-self: center;
+}
+
+.header-contacts {
+    place-self: end;
+    align-self: center;
+    line-height: 24px;
+    list-style: none;
+}
+
+.header-contacts-tel,
+.header-contacts-email {
+    text-decoration: none;
+    border-bottom: 1px #000 solid;
+}
+
+
+.header-logo-image {
+    width: 130px;
+    height: 105px;
+}
+
+.header-menu-list {
+    display: flex;
+    list-style: circle;
+    gap: 32px;
+}
+
+.header-menu-item {
+    line-height: normal;
+    text-decoration: none;
+    border-bottom: 1px #000 solid;
+}
+
+.header-menu-item-active {
+    border-bottom: none;
+}
