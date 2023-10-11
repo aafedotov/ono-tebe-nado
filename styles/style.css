@@ -12,7 +12,8 @@
     align-self: center;
 }
 
-.header-contacts {
+.header-contacts,
+.footer-contacts {
     place-self: end;
     align-self: center;
     line-height: 24px;
@@ -20,11 +21,12 @@
 }
 
 .header-contacts-tel,
-.header-contacts-email {
+.header-contacts-email,
+.footer-contacts-email,
+.footer-contacts-tel {
     text-decoration: none;
     border-bottom: 1px #000 solid;
 }
-
 
 .header-logo-image {
     width: 130px;
@@ -37,13 +39,15 @@
     gap: 32px;
 }
 
-.header-menu-item {
+.header-menu-item,
+.footer-menu-item {
     line-height: normal;
     text-decoration: none;
     border-bottom: 1px #000 solid;
 }
 
-.header-menu-item-active {
+.header-menu-item-active,
+.footer-menu-item-active {
     border-bottom: none;
 }
 
@@ -246,4 +250,51 @@
     display: flex;
     flex-direction: column;
     gap: 25px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 50px 90px 50px;
+    font-size: 18px;
+    width: 1440px;
+}
+
+.footer-menu {
+    place-self: center;
+    align-self: start;
+}
+
+.footer-contacts {
+    place-self: start;
+    align-self: center;
+    line-height: 24px;
+    list-style: none;
+}
+
+
+.footer-menu-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-social-list {
+    display: flex;
+    width: 240px;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    place-self: end;
+    align-self: start;
+}
+
+.footer-social-list-link {
+    text-decoration: none;
+    display: block;
+}
+
+.footer-social-list-img {
+    height: 48px;
+    width: 48px;
 }
