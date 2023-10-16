@@ -4,7 +4,7 @@
     padding: 92px 50px;
     place-items: center;
     font-size: 18px;
-    width: 1340px;
+    width: 1440px;
 }
 
 .header-menu {
@@ -14,8 +14,9 @@
 
 .address {
     place-self: start;
-    align-self: center;
+    padding-top: 5px;
     width: 240px;
+    font-style: normal;
 }
 
 .address-list {
@@ -25,12 +26,14 @@
 
 .header-address {
     place-self: end;
+    align-self: start;
 }
 
 .address-link {
     text-decoration: none;
     border-bottom: 1px #000 solid;
 }
+
 
 .header-logo-image {
     width: 130px;
@@ -51,6 +54,7 @@
 
 .menu-item-active {
     border-bottom: none;
+    list-style: none;
 }
 
 .cover {
@@ -112,7 +116,7 @@
 }
 
 .cover-description {
-    padding: 147px 50px 50px 0;
+    padding: 134px 50px 50px 0;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -124,7 +128,6 @@
 
 .cover-description-text {
     align-self: center;
-    text-align: left;
     word-spacing: 18px;
     display: inline-block;
     padding: 0;
@@ -236,7 +239,7 @@
     border-radius: 50%;
     background-color: black;
     padding: 63px 46px;
-    margin-left: 95px;
+    margin-left: 120px;
     margin-right: 95px;
 }
 
@@ -274,6 +277,7 @@
     list-style: none;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .footer-social-list {
