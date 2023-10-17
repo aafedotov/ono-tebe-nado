@@ -34,9 +34,8 @@
     border-bottom: 1px #000 solid;
 }
 
-
 .header-logo-image {
-    width: 130px;
+    width: 140px;
     height: 105px;
 }
 
@@ -46,14 +45,17 @@
     gap: 32px;
 }
 
-.menu-item {
+.menu-link {
     line-height: normal;
     text-decoration: none;
     border-bottom: 1px #000 solid;
 }
 
-.menu-item-active {
+.menu-link-active {
     border-bottom: none;
+}
+
+.menu-item-active {
     list-style: none;
 }
 
